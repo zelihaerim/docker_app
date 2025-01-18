@@ -1,5 +1,5 @@
 <code style="color: navy; text-indent: 60px; text-transform: uppercase;">Project Description</code>
-
+🐳
 <h3>
   <ul>
     <li>  $${\color{blue}  Write \space Poem \space and \space Essay \space app }$$  </li>
@@ -10,11 +10,11 @@
 </h3>
 Note:
 <ul>
-    <li> $${\color{magenta} build \space docker \space compose \space command: \space docker-compose\space up \space --build }$$  </li>
-    <li> $${\color{magenta}  build \space docker \space image \space basic \space command: \space docker \space build \space -f \space Dockerfile.name \space -t \space name_image:version1 \space .}$$  </li>
-    <li> $${\color{magenta}  create \space container \space from \space image \space with \space port: \space docker \space run \space -p \space portNum:portNum \space name_image:version1
+    <li> $${\color{magenta} 🐳 build \space docker \space compose \space command: \space docker-compose\space up \space --build }$$  </li>
+    <li> $${\color{magenta} 🐳 build \space docker \space image \space basic \space command: \space docker \space build \space -f \space Dockerfile.name \space -t \space name_image:version1 \space .}$$  </li>
+    <li> $${\color{magenta} 🐳 create \space container \space from \space image \space with \space port: \space docker \space run \space -p \space portNum:portNum \space name_image:version1
  }$$ </li>
-    <li> $${\color{magenta}  create \space venv \space : \space conda \space create \space -p \space venv \space python==3.10 \space -y}$$ </li>
+    <li> $${\color{magenta} 🐳 create \space venv \space : \space conda \space create \space -p \space venv \space python==3.10 \space -y}$$ </li>
   </ul>
   
 
