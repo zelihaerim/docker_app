@@ -9,6 +9,12 @@
     <li> $${\color{blue} Use \space docker \space commands \space to \space run \space the \space program \space It \space will \space automatically \space start. \space Just \space go \space specified \space url \space and \space have \space fun.\space }$$ </li>
   </ul>
 </h3>
+<ul>
+    <li> ☁️ You can pull images from hub : </li>
+    <li> 🐳 docker pull zerim34/streamlit_app_docker-server_folder</li>
+    <li> 🐳 docker pull zerim34/streamlit_app_docker-client_folder</li>
+</ul>
+
 Note:
 <ul>
     <li> $${\color{magenta} 🐳 build \space docker \space compose \space command: \space docker-compose\space up \space --build }$$  </li>
