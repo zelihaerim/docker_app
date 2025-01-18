@@ -39,7 +39,7 @@ def get_ollama_response(input_text, input_type):
     else:
         return None
 
-st.html("<h2>Langchain Demo With Ollama and Openai</h2>")
+st.html("<h2 style='color: rgb(219, 50, 219);'>Langchain App With Chat Groq Ollama and Openai</h2>")
 
 option_1 = st.selectbox(
     "Select Api type :",
