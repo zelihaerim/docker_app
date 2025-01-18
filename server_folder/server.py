@@ -27,7 +27,7 @@ ollama_model=ChatGroq(model="Gemma2-9b-It",groq_api_key=groq_api_key)
 # Prompt Templates with embedded input variables
 prompt1 = ChatPromptTemplate.from_messages([
     ("system","You are a helpful assistant."),
-    ("human", "Write me an essay about {topic} with 10 words")
+    ("human", "Write me an essay about {topic} with 100 words")
     ])
 
 prompt2 = ChatPromptTemplate.from_template("Write me an poem about {topic} for a 5 years child with 100 words")
