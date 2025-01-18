@@ -1,5 +1,3 @@
-<h2> <code style="font-size:60px; color: navy; text-indent: 60px; text-transform: uppercase;">Dockerize Streamlit App</code> </h2>
-<br>
 <code style="color: navy; text-indent: 60px; text-transform: uppercase;">Project Description</code>
 
 <h3>
@@ -10,16 +8,19 @@
     <li> $${\color{blue}  To \space run \space program \space write \space terminal\space :\space python \space server.py \space and \space streamlit \space run \space client.py }$$ </li>
   </ul>
 </h3>
-<h4><code style="color: navy; text-indent: 60px; text-transform: uppercase;">I have used Chat Groq api </code></h4>
-<h3>
-  <code style="color: navy; text-indent: 60px; text-transform: uppercase;">To run docker images and container: </code>
-    <ul>
-      <li>  $${\color{magenta}  docker \space build \space -f \space Dockerfile.server \space -t \space server\_image:version1 \space . }$$ </li>
-      <li>  $${\color{magenta}  docker \space build \space -f \space Dockerfile.client \space -t \space client\_image:version1 \space . }$$ </li>
-      <li>  $${\color{magenta}  docker \space run \space -p \space 8000:8000 \space server\_image:version1 }$$ </li>
-      <li>  $${\color{magenta}  docker \space run \space -p \space 8501:8501 \space client\_image:version1 }$$ </li>
-    </ul>
-</h3>
+Note:
+<ul>
+    <li> $${\color{magenta} build \space docker \space compose \space command: \space docker-compose\space up \space --build }$$  </li>
+    <li> $${\color{magenta}  build \space docker \space image \space basic \space command: \space docker \space build \space -f \space Dockerfile.name \space -t \space name_image:version1 \space .}$$  </li>
+    <li> $${\color{magenta}  create \space container \space from \space image \space with \space port: \space docker \space run \space -p \space portNum:portNum \space name_image:version1
+ }$$ </li>
+    <li> $${\color{magenta}  create \space venv \space : \space conda \space create \space -p \space venv \space python==3.10 \space -y}$$ </li>
+  </ul>
+  
+
+
+
+
 
 <h1> $${\color{blue}  Screen \space Shot \space of \space Webapp }$$ </h1>
 
