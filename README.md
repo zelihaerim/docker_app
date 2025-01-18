@@ -3,9 +3,9 @@
 <h3>
   <ul>
     <li>  $${\color{blue}  Write \space Poem \space and \space Essay \space app }$$  </li>
-    <li> $${\color{blue}  In \space this \space project \space I \space have \space used \space ollama \space gemma2:2b \space model \space and \space Openai \space model.}$$  </li>
+    <li> $${\color{blue}  In \space this \space project \space I \space have \space used \space Groq \space Api \space with \space ollama \space Gemma2-9b-It \space model \space and \space Openai \space model.}$$  </li>
     <li> $${\color{blue}  To \space deploy \space streamlit \space and \space FastAPI \space used. }$$ </li>
-    <li> $${\color{blue}  To \space run \space program \space write \space terminal\space :\space python \space server.py \space and \space streamlit \space run \space client.py }$$ </li>
+    <li> $${\color{blue}  Use \space docker \space commands \space to \space run \space the \space program \space It \space will \space automatically \space start. \space Just \space go \space specified \space url \space and \space have \space fun. 😁\space }$$ </li>
   </ul>
 </h3>
 Note:
